@@ -1,0 +1,7 @@
+<div class="otp">
+    <ng-otp-input #ngOtpInput (onInputChange)="onOtpChange($event)" [config]="config"></ng-otp-input>
+    <!-- <p fill="clear" color="primary" slot="start" (click)="resend()">
+      RESEND OTP
+    </p> -->
+    <button class="btn btn-success mt-4" (click)="handleClick()">Verify OTP</button>
+  </div>
